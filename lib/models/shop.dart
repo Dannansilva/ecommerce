@@ -5,13 +5,29 @@ class Shop extends ChangeNotifier {
   // products for sale
   final List<Product> _shop = [
     //product 1
-    Product(name: "Product 1", price: 100, description: "This is product 1"),
+    Product(
+        name: "Product 1",
+        price: 100,
+        description: "This is product 1",
+        imagePath: "assets/backpack.png"),
     //product 2
-    Product(name: "Product 2", price: 100, description: "This is product 2"),
+    Product(
+        name: "Product 2",
+        price: 100,
+        description: "This is product 2",
+        imagePath: "assets/shoes.png"),
     //product 3
-    Product(name: "Product 3", price: 100, description: "This is product 3"),
+    Product(
+        name: "Product 3",
+        price: 100,
+        description: "This is product 3",
+        imagePath: "assets/tshirt.png"),
     //product 4
-    Product(name: "Product 4", price: 100, description: "This is product 4"),
+    Product(
+        name: "Product 4",
+        price: 100,
+        description: "This is product 4",
+        imagePath: "assets/sunglasses.png"),
   ];
   //user cart
   List<Product> _cart = [];
